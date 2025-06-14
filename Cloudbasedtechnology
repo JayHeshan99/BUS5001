@@ -1,0 +1,13 @@
+Question : What is Cap Theorem.
+Answer by NotebookLM:  
+
+The CAP theorem, in the context of distributed systems, states that a distributed database system can only guarantee two out of three properties at any given time: Consistency, Availability, and Partition Tolerance.
+Here's an explanation of each component:
+Consistency (C): This means that all customers see the latest updates, regardless of their location. For instance, if a customer earns reward points in New York, those updated points should be immediately visible in Paris. The trade-off for prioritizing consistency is that during network issues, access to up-to-date data might be sacrificed.
+Availability (A): This ensures that customers can always access the service, even during network failures. For example, a customer should be able to check their points or use their rewards even if there are internal system issues. The trade-off for prioritizing availability is that customers might not always see the most recent data
+Partition Tolerance (P): This refers to the system's ability to continue operating despite network disruptions or failures between different locations or nodes. It is generally considered a non-negotiable requirement for distributed systems to function. An example of this is if the network connection between New York and Paris is disrupted, both locations should still operate independently and provide service.
+
+NotebookLM has provided the above answer using the inputs provided to the system via lecture notes. According to the Lecture notes the outputs provided for the asked question by NotebookLM is Accurate and matching with original content from lecture PDF. 
+
+There are several complaints made by the users online saying that the notebookLm is accurate in giving test outputs however there are flaws in the audio books as it hallucinates the outputs when summarizing making it sloppy. and Notebook LM also stuggles when it comes to analyzing inputs from the tables.
+overall Notebook LM provide great assitance to its users with accuracy.
